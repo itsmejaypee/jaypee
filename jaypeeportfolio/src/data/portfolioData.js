@@ -10,8 +10,8 @@ export const personalInfo = {
     "I'm a Computer Engineering student at the Institute of Creative Computer Technology (ICCT), with basic skills in programming, JavaScript, UI/UX design, and embedded systems.",
     "My academic projects include NutriTrack and Embedded Systems: Medicare, where I prepared technical documentation, defined system requirements, and collaborated with team members."
   ],
-  avatarLight: "/jaypee/assets/jaypee-profile.jpg",
-  avatarDark: "/jaypee/assets/jaypee-profile.jpg"
+  avatarLight: "/assets/jaypee-profile.jpg",
+  avatarDark: "/assets/jaypee-profile.jpg"
 };
 
 export const socialLinks = [
@@ -25,8 +25,8 @@ export const projects = [
     id: 2,
     name: "NutriTrack",
     description: "An object oriented programming project at ICCT Colleges. As System Analyst and Technical Documentation Lead, I documented system features, class structures, program specifications, and functional requirements.",
-    preview: "/jaypee/assets/nutritrack.jpg",
-    images: ["/jaypee/assets/nutritrack.jpg"],
+    preview: "/assets/nutritrack.jpg",
+    images: ["/assets/nutritrack.jpg"],
     imageFit: "contain",
     tags: ["Basic Programming", "System Analysis", "Technical Documentation"],
     period: "Aug 2025 - Nov 2025",
@@ -46,8 +46,8 @@ export const projects = [
     id: 1,
     name: "Embedded Systems: Medicare",
     description: "An embedded systems project at ICCT Colleges. As Systems Developer, I prepared technical reports, documented the system architecture and hardware components, and defined project requirements and objectives.",
-    preview: "/jaypee/assets/medicare.jpg",
-    images: ["/jaypee/assets/medicare.jpg"],
+    preview: "/assets/medicare.jpg",
+    images: ["/assets/medicare.jpg"],
     imageFit: "contain",
     tags: ["Embedded Systems", "System Architecture", "Technical Documentation"],
     period: "March 2026 - July 2026",
@@ -110,7 +110,7 @@ export const certifications = [{
   description: "Certificate of Participation",
   date: "February 10, 2026",
   certificateId: "DICTR4A-2026-0210-009",
-  image: "/jaypee/assets/dict-certificate.jpg"
+  image: "/assets/dict-certificate.jpg"
 }];
 
 export const navLinks = [
