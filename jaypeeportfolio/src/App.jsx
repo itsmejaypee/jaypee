@@ -67,7 +67,7 @@ const router = createBrowserRouter(
       ],
     },
   ],
-  { basename: "/jaypee" }
+  {}
 );
 
 export default function App() {
