@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix jaypeeportfolio run dev --",
+    "build": "npm --prefix jaypeeportfolio run build",
+    "preview": "npm --prefix jaypeeportfolio run preview --",
+    "phone": "npm --prefix jaypeeportfolio run phone",
+    "setup": "npm --prefix jaypeeportfolio install"
+  }
+}

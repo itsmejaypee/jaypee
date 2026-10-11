@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpeg" href="/jaypee/assets/jaypee-profile.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet" />
+    <title>Ron Jaypee V. Matienzo - Computer Engineering Student</title>
+    <meta name="description" content="Ron Jaypee V. Matienzo's portfolio: Computer Engineering at ICCT, NutriTrack, Embedded Systems: Medicare, basic skills, and DICT certification." />
+    <meta property="og:title" content="Ron Jaypee V. Matienzo - Portfolio" />
+    <meta property="og:description" content="Computer Engineering student at ICCT Colleges. Explore my academic projects, basic skills, and certification." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/jaypee/assets/jaypee-profile.jpg" />
+    <script>
+      // GitHub Pages SPA redirect handler
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script>
+      var theme = localStorage.getItem("theme") || "system";
+      document.documentElement.classList.toggle("dark", theme === "dark" || (theme === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches));
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
