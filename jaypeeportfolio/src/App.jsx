@@ -67,7 +67,12 @@ const router = createBrowserRouter(
       ],
     },
   ],
-  {}
+  {
+    basename:
+      typeof window !== "undefined" && window.location.pathname.startsWith("/jaypee")
+        ? "/jaypee"
+        : "/",
+  }
 );
 
 export default function App() {
