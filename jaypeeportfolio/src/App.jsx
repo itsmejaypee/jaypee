@@ -69,8 +69,8 @@ const router = createBrowserRouter(
   ],
   {
     basename:
-      typeof window !== "undefined" && window.location.pathname.startsWith("/jaypee")
-        ? "/jaypee"
+      typeof window !== "undefined" && (window.location.pathname.startsWith("/ronjaypee") || window.location.pathname.startsWith("/jaypee"))
+        ? (window.location.pathname.startsWith("/ronjaypee") ? "/ronjaypee" : "/jaypee")
         : "/",
   }
 );
